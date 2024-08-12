@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
+import Navbar from './pages/Navbar';
+import Skills from './pages/Skills';
+import Work from './pages/Work';
+
+import { ThemeProvider } from "./context/ThemeContext"
+import { useState } from 'react';
 
 function App() {
+  const [ token, setToken ] = useState(null)
+
+  const handleLogin = (token) => {
+    setToken(token)
+  }
+
+  const handleLogout = () => {
+    setToken(null)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <div className="App">
+        <Navbar onLogout={handleLogout}/>
+        <Home />
+        <About />
+        <Skills />
+        <Work />
+        <Contact />
+      </div>
+    </ThemeProvider>
   );
 }
 
