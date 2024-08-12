@@ -9,7 +9,7 @@ const Work = () => {
       code_url: 'https://github.com/opensource-emr/hospital-management-emr',
       demo_url: 'https://danphehealth.com/',
       image: DanpheEMR,
-      description: 'Danphe Health is a Hospital Information Management System or Electronic Medical Record System that is used by more than 100+ hospitals in Nepal. It is a huge enterprise level, web based application with multiple modules that is required to operate and process hospital day-to-day activities. During the period of 3 years I involved in the development of various modules mainly in Inventory, Medical and Patient Reporting, and Accounting Module.',
+      description: 'Danphe Health is a Hospital Information Management System or Electronic Medical Record System that is used by more than 100+ hospitals in Nepal. It is a huge enterprise level, web based application with multiple modules that is required to operate and process hospital day-to-day activities. During a period of 3 years, I was involved in the development of various modules, mainly in Inventory, Medical and Patient Reporting, and the Accounting Module.',
       technologies: 'C# ASP.Net Core, Angular, MS SQL Server',
       company: 'Imark Pvt. Ltd.',
       companyLink:'https://www.imarkdigital.com/'
@@ -19,7 +19,7 @@ const Work = () => {
       code_url: '',
       demo_url: 'https://danphecare.com/home',
       image: DanpheEMR,
-      description: 'Content Management System for DanpheCare website which is the official site of daughter company of Imark, that provides various online service related with health like online doctor consultations, Lab at Home service with one click, handles blood donation events and many more.',
+      description: 'Content Management System for DanpheCare website which is the official site of a subsidiary of Imark, that provides various online health-related services like online doctor consultations, Lab at Home service with one click, handles blood donation events and many more.',
       technologies: 'C# ASP.Net Core, Angular, MS SQL Server, Bootstrap',
       company: 'Imark Pvt. Ltd.',
       companyLink:'https://www.imarkdigital.com/'
@@ -29,7 +29,7 @@ const Work = () => {
       code_url: '',
       demo_url: '',
       image: DanpheEMR,
-      description: 'Web application mainly designed for cash management in banks that tracks the cash flow in the bank, cash deposit, cash withdrawal, and cash transfer. The system is integrated with the bank’s core system, ATM or TCR machines.',
+      description: 'Web application mainly designed for cash management in banks that tracks the cash flow in the bank, cash deposits, withdrawals, and transfers. The system is integrated with the bank’s core system, ATM or TCR machines.',
       technologies: 'C# ASP.Net Core, VueJs, DynamoDb, Docker, AWS',
       company: 'Vastika Inc.',
       companyLink:'https://www.vastika.com/'
@@ -39,7 +39,7 @@ const Work = () => {
       code_url: '',
       demo_url: 'https://global.hyosunginnovue.com/products/blueversefleet/',
       image: DanpheEMR,
-      description: 'Desktop application for managing ATMs that includes ATM setting configuration, real-time monitoring, transaction management, and reporting.',
+      description: 'Desktop application for managing ATMs that includes ATM configuration settings, real-time monitoring, transaction management, and reporting.',
       technologies: 'C# ASP.Net, WPF, MS SQL Server',
       company: 'Vastika Inc.',
       companyLink:'https://www.vastika.com/'
@@ -49,7 +49,7 @@ const Work = () => {
       code_url: '',
       demo_url: 'https://global.hyosunginnovue.com/products/blueverseteller/',
       image: DanpheEMR,
-      description: 'Desktop based customer support system for ATM users and Bank employees who can assist their customers on real-time and reduce the wait-time. The system is integrated with the ATM machine and the bank’s core system.',
+      description: 'A desktop-based customer support system for ATM users and bank employees that assists customers in real-time, reducing wait times. The system is integrated with ATM machines and the bank’s core system.',
       technologies: 'C# ASP.Net, WPF, MS SQL Server',
       company: 'Vastika Inc.',
       companyLink:'https://www.vastika.com/'
@@ -59,7 +59,7 @@ const Work = () => {
       code_url: 'https://github.com/bikasharyal/semester-end-pj-epita-bikash-aryal',
       demo_url: 'https://github.com/bikasharyal/semester-end-pj-epita-bikash-aryal',
       image: DanpheEMR,
-      description: 'Web application for managing events with features like event creation, event registration, event management, and event reporting. With proper authentication and authorization that insures the security of the system.',
+      description: 'Web application for managing events with features like event creation, event registration, event management, and event reporting. It includes proper authentication and authorization to ensure system security.',
       technologies: 'NodeJs/Express, ReactJs, MangoDb, JWT, TailWind CSS',
       company: 'University Project'
     }
