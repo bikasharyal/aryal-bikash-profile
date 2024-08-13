@@ -9,7 +9,7 @@ const About = () => {
               <p className='text-600 text-4xl font-bold border-600 inline' style={{ color: '#800000', textDecoration:'underline', textDecorationColor: '#800000'}} >About</p>
             </div>
             <div className='row-start-2 text-center md:text-right md:col-span-1 px-5 md:px-0'>
-              <h1 className='text-4xl font-bold'>
+              <h1 className='md:text-4xl text-3xl font-bold'>
                Greetings! Please take a look around.
               </h1>
             </div>

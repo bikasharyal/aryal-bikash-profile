@@ -15,10 +15,10 @@ const Home = () => {
           <p className='text-800 font-bold' style={{ color:'#800000', fontWeight: 'bold' }}>
             Hello, my name is
           </p>
-          <h2 className='text-6xl font-bold' style={{ color: darkMode ? '#fff' : '#0A192F' }}>
+          <h2 className='md:text-6xl text-4xl font-bold' style={{ color: darkMode ? '#fff' : '#0A192F' }}>
             Bikash Aryal
           </h2>
-          <h2 className='text-5xl font-bold' style={{ color: darkMode ? '#fff' : '#800000' }}>
+          <h2 className='md:text-5xl text-3xl font-bold' style={{ color: darkMode ? '#fff' : '#800000' }}>
             I'm a full stack .Net developer.
           </h2>
           <p className='mt-4 font-light' style={{ color: darkMode ? '#8892b0' : '#0A192F' }}>
@@ -35,7 +35,7 @@ const Home = () => {
         
         {/* Image Section */}
         <div className='w-full md:w-1/3 flex justify-center md:justify-end mt-8 md:mt-0'>
-          <img src={profileImg} alt="Profile" className='w-[600px] h-[550px] object-cover' />
+          <img src={profileImg} alt="Profile" className='md:w-[650px] md:h-[600px] h-[480px] w-[600px] object-cover' />
         </div>
         
       </div>

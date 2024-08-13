@@ -28,7 +28,7 @@ const Navbar = ({ onLogout }) => {
       </Link>
       </div>
 
-      <ul className='hidden md:flex items-center gap-7 font-light'>
+      <ul className='hidden md:flex md:w-full items-center justify-center gap-7 font-light'>
         <li className='cursor-pointer text-4xl font-bold font-medium'><Link
               className='hover:text-[#800000] hover:font-large'
               to={'home'}
@@ -46,9 +46,9 @@ const Navbar = ({ onLogout }) => {
           </li>
         ))}
       </ul>
-      <div className='flex space-x-4'>
+      <div className='flex justify-end w-full md:w-auto'>
         <button 
-          className='rounded-lg px-2 py-1 font-bold text-md duration-500' 
+          className='rounded-lg px-2 py-1 font-bold text-md duration-50' 
           onClick={toggleDarkMode}
           style={{ 
             backgroundColor: darkMode ? '#fff' : "#0A192F", 
@@ -63,8 +63,8 @@ const Navbar = ({ onLogout }) => {
       </div>
       <div onClick={toggleMenu} className='md:hidden z-10'>
         {
-          showMenu ? <XMarkIcon className='h-6 w-6'/> 
-          : <Bars3Icon className='h-6 w-6' />
+          showMenu ? <XMarkIcon className='h-10 w-10'/> 
+          : <Bars3Icon className='h-10 w-10' />
         }
       </div>
 
@@ -118,25 +118,25 @@ const Navbar = ({ onLogout }) => {
       </ul>
 
       <div className='hidden fixed md:flex flex-col top-[35%] left-0'>
-        <div className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#003166]'>
+        <div className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#003166]'>
           <a href='https://www.linkedin.com/in/bikash-aryal-5904/' target='blank' className='flex justify-center items-center w-full text-white font-normal text-base px-4'>
             <span>LinkedIn</span>
             <FaLinkedin className='h-[30px] w-[30px] ml-auto' />
           </a>
         </div>
-        <div className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#141414]'>
+        <div className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#141414]'>
           <a href='https://github.com/bikasharyal' target='blank' className='flex justify-center items-center w-full text-white font-normal text-base px-4'>
             <span>Github</span>
             <FaGithub className='h-[30px] w-[30px] ml-auto' />
           </a>
         </div>
-        <div className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4A6378]'>
+        <div className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#4A6378]'>
           <a href='mailto:mearyalbikash@gmail.com' className='flex justify-center items-center w-full text-white font-normal text-base px-4'>
             <span>Contact</span>
             <EnvelopeIcon className='h-[30px] w-[30px] ml-auto' />
           </a>
         </div>
-        <div className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222222]'>
+        <div className='w-[150px] h-[50px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#222222]'>
           <a href='https://drive.google.com/file/d/1-Pb3qIrkkbdVYkmKSGSTi2z9JLqtrR65/view?usp=sharing' target="blank" className='flex justify-center items-center w-full text-white font-normal text-base px-4'>
             <span>Resume</span>
             <IdentificationIcon className='h-[30px] w-[30px] ml-auto' />
