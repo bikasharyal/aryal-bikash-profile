@@ -75,7 +75,8 @@ const Navbar = ({ onLogout }) => {
             className='hover:text-700 ml-2 hover:font-medium hover:text-4xl text-[#800000] text-3xl mr-2' 
             to={'home'}
             smooth={true}
-            duration={500}><FaHome/>        
+            duration={500}
+            onClick={() => setShowMenu(false)}><FaHome/>        
           </Link>
         </li>        
         <li className='cursor-pointer'>
@@ -83,7 +84,8 @@ const Navbar = ({ onLogout }) => {
               className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
               to={'skills'}
               smooth={true}
-              duration={500}>Skills        
+              duration={500}
+              onClick={() => setShowMenu(false)}>Skills                    
           </Link>
         </li>
         <li className='cursor-pointer'>
@@ -91,7 +93,8 @@ const Navbar = ({ onLogout }) => {
               className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
               to={'work'}
               smooth={true}
-              duration={1000}>Work        
+              duration={1000}
+              onClick={() => setShowMenu(false)}>Work        
           </Link>
         </li>
         <li className='cursor-pointer'>
@@ -99,7 +102,8 @@ const Navbar = ({ onLogout }) => {
               className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
               to={'about'}
               smooth={true}
-              duration={1000}>About        
+              duration={1000}
+              onClick={() => setShowMenu(false)}>About        
           </Link>
           </li>
         <li className='cursor-pointer'>
@@ -107,7 +111,8 @@ const Navbar = ({ onLogout }) => {
               className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
               to={'contact'}
               smooth={true}
-              duration={1000}>Contact        
+              duration={1000}
+              onClick={() => setShowMenu(false)}>Contact        
           </Link>
         </li>
       </ul>
