@@ -81,12 +81,12 @@ const Work = () => {
           <p className="py-6">Explore the projects I've worked on, both professionally and personally.</p>
         </div>
         <div className="overflow-x-auto">
-          <table className="table-auto w-full text-left">
+          <table className="table-auto w-full text-left min-w-[1000px]">
             <thead>
               <tr className="text-gray-200" style={{ backgroundColor: 'rgba(193,113,113, 0.07)' }}>
                 {/* <th className="px-4 py-2"></th> */}
                 <th className="px-4 py-2 text-center" colSpan={2}>Project</th>
-                <th className="px-4 py-2">Description</th>
+                <th className="px-4 py-2 desc-col">Description</th>
                 <th className="px-4 py-2">Technologies Used</th>
                 <th className="px-4 py-2">Associated Company</th>
                 <th className="px-4 py-2">Open-Source code</th>
