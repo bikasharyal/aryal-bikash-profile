@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.9267815d.css",
-    "main.js": "/static/js/main.5a0f607f.js",
+    "main.css": "/static/css/main.852108e9.css",
+    "main.js": "/static/js/main.6b0e4f5e.js",
     "static/js/453.e6b3dd02.chunk.js": "/static/js/453.e6b3dd02.chunk.js",
     "static/media/profileImage.png": "/static/media/profileImage.3f143652d00ebc4e2f50.png",
+    "static/media/blueVerseFleet.png": "/static/media/blueVerseFleet.8f3c97c94878ed66bdc6.png",
+    "static/media/blueVerseTeller.png": "/static/media/blueVerseTeller.4af98a000492f2be69ec.png",
     "static/media/netcore.png": "/static/media/netcore.c97470dd91ec398e6a3c.png",
     "static/media/csharp.png": "/static/media/csharp.ec0b08f293f102c4cf81.png",
     "static/media/docker.png": "/static/media/docker.1711877294e179fe23c2.png",
@@ -15,16 +17,17 @@
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
     "static/media/typescript.png": "/static/media/typescript.0f1cc93b573e0ea540dc.png",
     "static/media/html5.png": "/static/media/html5.433fda35ec3b24cb2a74.png",
+    "static/media/danpheHealth.png": "/static/media/danpheHealth.efac1cea3b5bc1ddff5a.png",
     "static/media/php.webp": "/static/media/php.b4c764fe1d63c29e0585.webp",
     "static/media/angular.webp": "/static/media/angular.f0835947fd4ae8152740.webp",
     "static/media/css3.webp": "/static/media/css3.6e57aac7aefa69f0451d.webp",
     "index.html": "/index.html",
-    "main.9267815d.css.map": "/static/css/main.9267815d.css.map",
-    "main.5a0f607f.js.map": "/static/js/main.5a0f607f.js.map",
+    "main.852108e9.css.map": "/static/css/main.852108e9.css.map",
+    "main.6b0e4f5e.js.map": "/static/js/main.6b0e4f5e.js.map",
     "453.e6b3dd02.chunk.js.map": "/static/js/453.e6b3dd02.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9267815d.css",
-    "static/js/main.5a0f607f.js"
+    "static/css/main.852108e9.css",
+    "static/js/main.6b0e4f5e.js"
   ]
 }
