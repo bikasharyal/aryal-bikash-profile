@@ -46,7 +46,7 @@ const Navbar = ({ onLogout }) => {
           </li>
         ))}
       </ul>
-      <div className='flex items-center space-x-4'>
+      <div className='flex space-x-4'>
         <button 
           className='rounded-lg px-2 py-1 font-bold text-md duration-500' 
           onClick={toggleDarkMode}
@@ -60,10 +60,6 @@ const Navbar = ({ onLogout }) => {
           ? <FaSun className='hover:text-[#800000] hover:font-medium'/> 
           : <FaMoon className='hover:text-[#800000] hover:font-medium'/> }
         </button>
-
-        {/* <button onClick={onLogout}>
-          Logout
-        </button> */}
       </div>
       <div onClick={toggleMenu} className='md:hidden z-10'>
         {
@@ -74,11 +70,46 @@ const Navbar = ({ onLogout }) => {
 
       <ul className={`md:hidden w-full h-screen absolute flex flex-col gap-6 bg-primary top-0 left-0 items-center justify-center text-4xl ${ showMenu ? 'block' : 'hidden' }`}>
       {/* <li className='cursor-pointer'>Home</li> */}
-        <li className='cursor-pointer'><FaHome/></li>
-        <li className='cursor-pointer'>Skills</li>
-        <li className='cursor-pointer'>Work</li>
-        <li className='cursor-pointer'>About</li>
-        <li className='cursor-pointer'>Contact</li>
+        <li className='cursor-pointer'>
+          <Link 
+            className='hover:text-700 ml-2 hover:font-medium hover:text-4xl text-[#800000] text-3xl mr-2' 
+            to={'home'}
+            smooth={true}
+            duration={500}><FaHome/>        
+          </Link>
+        </li>        
+        <li className='cursor-pointer'>
+          <Link 
+              className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
+              to={'skills'}
+              smooth={true}
+              duration={500}>Skills        
+          </Link>
+        </li>
+        <li className='cursor-pointer'>
+          <Link 
+              className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
+              to={'work'}
+              smooth={true}
+              duration={1000}>Work        
+          </Link>
+        </li>
+        <li className='cursor-pointer'>
+        <Link 
+              className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
+              to={'about'}
+              smooth={true}
+              duration={1000}>About        
+          </Link>
+          </li>
+        <li className='cursor-pointer'>
+          <Link 
+              className='hover:text-700 ml-2 hover:font-medium hover:text-4xl hover:text-[#800000] text-3xl mr-2' 
+              to={'contact'}
+              smooth={true}
+              duration={1000}>Contact        
+          </Link>
+        </li>
       </ul>
 
       <div className='hidden fixed md:flex flex-col top-[35%] left-0'>

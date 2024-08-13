@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div name="contact" className='w-full h-screen bg-primary flex justify-center items-center p-4'>
+    <div name="contact" className='min-h-screen md:h-screen w-full pt-44 bg-primary flex justify-center items-center p-4'>
       <div className='max-w-[800px] w-full flex flex-col'>
         <div className='pb-8'>
           <p className='text-300 text-[#800000] text-4xl font-bold inline border-600' style={{ textDecoration:'underline', textDecorationColor: '#800000'}}>Contact</p>
