@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <div name="home" className='min-h-screen md:h-screen w-full pt-44' style={{ backgroundColor: darkMode ? '#0A192F' : '#d3d3d3' }}>
-      <div className='max-w-[1300px] mx-auto px-8 flex flex-col md:flex-row justify-between items-center h-full font-normal'>
+      <div className='max-w-[1200px] mx-auto px-8 flex flex-col md:flex-row justify-between items-center h-full font-normal'>
         
         {/* Text Section */}
         <div className='text-left w-full md:w-2/3'>

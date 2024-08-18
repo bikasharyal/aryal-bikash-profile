@@ -72,7 +72,7 @@ const Work = () => {
 
   return (
     <div name="work" className="min-h-screen md:min-h-0 w-full pt-44 bg-primary text-gray-300">
-      <div className="w-full h-full max-w-[1300px] mx-auto p-4 flex flex-col justify-center">
+      <div className="w-full h-full max-w-[1200px] mx-auto p-4 flex flex-col justify-center">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-600"
             style={{ color: '#800000', textDecoration: 'underline', textDecorationColor: '#800000' }}>
