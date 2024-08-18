@@ -34,7 +34,7 @@ const Home = () => {
         </div>
         
         {/* Image Section */}
-        <div className='w-full md:w-1/3 flex justify-center md:justify-end mt-8 md:mt-0'>
+        <div className='w-full md:w-1/3 flex justify-center md:justify-end mt-[-50px] md:mt-[-20px]'>
           <img src={profileImg} alt="Profile" className='md:w-[600px] md:h-[527px] h-[480px] w-[600px] object-cover' />
         </div>
         
